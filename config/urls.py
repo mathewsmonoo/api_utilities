@@ -23,7 +23,7 @@ urlpatterns = [
     # User management
 
     # My stuff: custom urls includes go here
-    path('covid',    include('utilities.covidstatus.urls',      namespace='covidstatus')),
+    path('covidstatus/',    include('utilities.covidstatus.urls',      namespace='covidstatus')),
 
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

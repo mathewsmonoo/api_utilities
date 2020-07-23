@@ -12,6 +12,7 @@ django-environ = "*"
 django-extensions = "*"
 django-compressor = "*"
 psycopg2 = "*"
+django-countries = "*"
 
 [requires]
 python_version = "3.8"
